@@ -1,0 +1,166 @@
+$black: #777777;
+$grey: #dcdcdc;
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+	padding: 25px 100px 25px 40px;
+}
+
+.header{
+	position: relative;	
+
+	&_img{
+		width: 124px;
+		height: 109px;
+		position: absolute;
+	}
+}
+
+.two{
+	width: 280px;
+	height: 109px;
+	background-color: $black;
+	position: absolute;
+	left: 15%;
+}
+
+.three{
+	width: 513px;
+	height: 109px;
+	background-color: $black;
+	position: absolute;
+	right: 0;
+}
+
+.content{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 23px 0 21px 0;
+	margin: 127px 0 23px 0;	
+	overflow: hidden;
+	position: relative;
+}
+.midl{
+	min-height: calc(100vh - 181px);
+}
+
+.aside{
+	width: 185px;
+}
+
+.four{
+	min-height: 336px;
+	background-color: $black;
+	font-size: 14px;
+	color: #fff;
+}
+
+.seven{
+	display: block;
+	width: 185px;
+	height: 134px;
+	position: absolute;
+    bottom: 25px;
+}
+
+.main{
+	float: right;
+	width: 757px;
+}
+
+.five{
+	height: 210px;
+	background-color: $grey;
+}
+
+.six{
+	padding: 0 0 15px 0;
+
+	&_img{
+		width: 133px;
+		height: 152px;
+		background-color: $grey;
+		display: inline-block;	
+		margin: 17px 19px 0 0;
+		&:nth-child(5n){
+			margin-right: 0;
+		}
+	}
+}
+
+.eight{
+	display: inline-block;
+	width: 368px;
+	height: 200px;
+	background-color: $grey;
+}
+
+.nine{
+	@extend .eight;
+	margin: 0 0 0 16px;
+}
+
+.footer{
+    display: flex;
+}
+
+.ten{
+	display: inline-block;
+	width: 297px;
+	height: 179px;
+	background-color: $black;
+	margin: 0 25px 0 0;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.list{
+	height: 181px;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    padding: 10px 0 0 24px;
+    color: #fff;
+
+	&_item{
+		line-height: 23px;
+	}
+}
+
+.eleven{
+	@extend .ten;
+	height: 100%;
+	min-height: 179px;
+}
+
+.list-eleven{
+    display: flex;
+    flex-flow: column;
+    padding: 17px 0 0 40px;
+    color: #fff;
+
+	&_item{
+		line-height: 15px;
+    	padding: 0px 0 8px 0;
+	}
+}
+
+.twelve{
+	width: 305px;
+	height: 75px;
+	background-color: $black;
+	margin: 0 0 29px 0;
+}
+
+.thirteen{
+	@extend .twelve;
+	margin: 0;
+}
+
